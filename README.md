@@ -114,3 +114,11 @@ python src/graph.py --repo "C:\\Users\\shami\\Bank_app"
 os.makedirs("generated", exist_ok=True)
 with open("generated/README.md", "w", encoding="utf-8") as file:
     file.write(readme_content)
+**-----------------------------------------------------------------------------------------------------------------------
+**How the Data FlowsYou **
+1-talk to the loop: The Persistent Console Loop captures your request.
+2-The Manager decides: The Supervisor Node checks the   Memory Matrix to see what to do.
+3-Reading the code: If it needs to understand your project, it tells the Context Engine to scan your files.
+4-Thinking and Planning: LangGraph routes the data to Ollama so the offline AI can think of a solution.
+5-Writing the fix: The Engineer Node builds the fix, and the File Mutation Writer saves it to your hard drive.
+6-The engine: Everything above is written and powered by Python.
