@@ -114,7 +114,5 @@ python src/graph.py --repo "C:\\Users\\shami\\Bank_app"
 os.makedirs("generated", exist_ok=True)
 with open("generated/README.md", "w", encoding="utf-8") as file:
     file.write(readme_content)
-## 🔄 System Architecture & Data Flow
 
-Everything in this pipeline is written and powered by **Python 3.14+**. The diagram and steps below show how data moves through the system when you issue a command:
 
